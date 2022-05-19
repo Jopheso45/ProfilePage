@@ -1,0 +1,377 @@
+* {
+    font-family: sans-serif;
+}
+
+.nav {
+    height: 50px;
+    width: 99%;
+    background-color: black;
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+
+.item-one {
+    color: lightgray;
+    margin-right: 10px;
+    position: relative;
+}
+
+.active {
+    color: white;
+    position: relative;
+}
+
+.item-two {
+    color: lightgray;
+    margin-right: 530px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.nav-title {
+    margin-left: 20%;
+    color: white;
+    position: relative;
+}
+
+.btn {
+    background-color: rgb(22, 170, 170);
+    width: 80px;
+    color: white;
+    padding: 4px;
+    position: relative;
+}
+
+.body-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body-container-left {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.body-container-right {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#ProfileCard{
+    height:280px;
+    width:500px;
+    border: solid 4px rgba(128, 128, 128, 30%);
+    border-radius: 1%;
+    margin-bottom: 35px;
+}
+
+.textboxprofilecard{
+    margin-top:20px;
+}
+
+.textboxprofilecard h1{
+    margin-left:20px;
+    margin-bottom:5px;
+}
+.textboxprofilecard h3{
+    margin-left:15px;
+    margin-top:5px;
+}
+.textboxprofilecard p{
+    margin-left:20px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.topcolorprofilecard{
+    height:75px;
+    background-color: rgb(102, 222, 222);
+    margin-bottom:35px;
+}
+
+.dummylink{
+    position:relative;
+    margin:0;
+    color:rgb(0, 140, 255);
+    text-decoration: underline;
+}
+
+.locationcontainer{
+    width: 100px;
+    height: 30px;
+    margin-bottom:10px;
+    display: flex;
+    align-content:bottom;
+}
+
+#mapmarker{
+    height:15px;
+    margin-top:5px;
+    margin-left:30px;
+}
+
+.dummylinkbox{
+    margin-top:15px;
+    margin-left:18px;
+    height:30px;
+    width:100px;
+    display:flex;
+    align-content:bottom;
+    justify-content: space-evenly;
+}
+
+#gear{
+    height:15px;
+    margin:0;
+}
+
+#usercircle{
+    height:60px;
+    margin-top:45px;
+    margin-left:30px;
+    position:relative;
+    border: solid 4px rgba(128, 128, 128, 30%);
+    border-radius: 50%;
+
+}
+
+
+.requests {
+    background-color: red;
+    height: 220px;
+    width: 300px;
+}
+
+
+
+
+#EducationCard{
+    height:220px;
+    width:500px;
+    border: solid 4px rgba(128, 128, 128, 30%);
+    border-radius: 1%;
+}
+
+.topcoloreducationcard{
+    margin-top: 35px;
+    height:75px;
+    background-color: rgb(16, 30, 30);
+    margin-bottom:10px;
+    margin-top:0;
+    display:flex;
+    align-content:center;
+}
+
+.textboxeducation{
+    color:white;
+    margin-left:20px;
+}
+
+.textboxeducation2{
+    margin-left:20px;
+}
+
+.textboxeducation2 h3{
+    color: grey;
+    margin: 0;
+}
+
+
+
+#requestCard{
+    height:220px;
+    width:300px;
+    border: solid 4px rgba(128, 128, 128, 30%);
+    border-radius: 1%;
+}
+
+.topcolorrequestcard{
+    height:75px;
+    background-color: rgb(16, 30, 30);
+    margin-bottom:10px;
+    margin-top:0;
+    display:flex;
+    justify-content: center;
+}
+
+.textboxrequest{
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:8px;
+}
+
+.textboxrequest2{
+    margin-left:20px;
+}
+
+.requestnumber{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-right: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.requestnumber h1{
+    color:black;
+}
+/* user1request */
+.requestuser1{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#requestpic1{
+    height: 40px;
+}
+
+#yesuser1{
+    height: 40px;
+}
+
+#nouser1{
+    height: 40px;
+}
+/* user2request */
+.requestuser2{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#requestpic2{
+    height: 40px;
+}
+
+#yesuser2{
+    height: 40px;
+}
+
+#nouser2{
+    height: 40px;
+}
+
+
+
+
+#connectionCard{
+    margin-top: 35px;
+    height:440px;
+    width:300px;
+    border: solid 4px rgba(128, 128, 128, 30%);
+    border-radius: 1%;
+}
+
+.topcolorconnectioncard{
+    height:75px;
+    background-color: rgb(16, 30, 30);
+    margin-bottom:10px;
+    margin-top:0;
+    display:flex;
+    justify-content: center;
+}
+
+.textboxconnection{
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:8px;
+}
+
+.textboxconnection2{
+    margin-left:20px;
+}
+
+.connectionnumber{
+    height: 50px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-right: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connectionnumber h1{
+    color:black;
+}
+
+
+/* user1 */
+.connectionuser1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15%;
+}
+
+#connectionpic1{
+    height: 40px;
+}
+/* user2 */
+.connectionuser2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15%;
+}
+
+#connectionpic2{
+    height: 40px;
+}
+/* user3 */
+.connectionuser3{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15%;
+}
+
+#connectionpic3{
+    height: 40px;
+}
+/* user4 */
+.connectionuser4{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15%;
+}
+
+#connectionpic4{
+    height: 40px;
+}
+
+.greyline{
+    height:4px;
+    background-color: rgba(128, 128, 128, 30%);
+}
+
+.viewmore{
+    text-decoration: underline;
+    color:rgb(0, 140, 255);
+    margin-left: 10%;
+    margin-top: 22px;
+}
